@@ -28,7 +28,7 @@ jobs:
           MYSQL_PASSWORD: sc_user
           MYSQL_DATABASE: scdb_dev
         ports:
-          - 3306
+          - 3306:3306
 
     steps:
       - uses: actions/checkout@v2
